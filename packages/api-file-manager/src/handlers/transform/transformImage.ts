@@ -25,5 +25,6 @@ export const transformImage = async (
     const { width } = transformations;
     return await sharp(buffer, { animated: options.animated ?? false })
         .resize({ width })
+        .withMetadata()
         .toBuffer();
 };

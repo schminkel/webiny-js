@@ -19,6 +19,7 @@ export default async (buffer: Body, type: string): Promise<Body> => {
             return await sharp(buffer)
                 .resize({ width: 2560, withoutEnlargement: true, fit: "inside" })
                 .toFormat("jpeg", { quality: 90 })
+                .withMetadata()
                 .toBuffer();
         }
         default:
