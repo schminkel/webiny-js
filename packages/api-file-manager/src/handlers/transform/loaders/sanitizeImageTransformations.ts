@@ -1,4 +1,4 @@
-const SUPPORTED_IMAGE_RESIZE_WIDTHS: number[] = [100, 300, 500, 750, 1000, 1500, 2500];
+const SUPPORTED_IMAGE_RESIZE_WIDTHS: number[] = [10, 100, 300, 500, 750, 1000, 1500, 2500];
 
 export interface SanitizeImageArgs {
     width?: string;

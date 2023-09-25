@@ -22,7 +22,7 @@ export interface ImageElementData {
 
 export interface ImageRendererComponentProps extends Props, CreateImageParams {}
 
-const SUPPORTED_IMAGE_RESIZE_WIDTHS = [100, 300, 500, 750, 1000, 1500, 2500];
+const SUPPORTED_IMAGE_RESIZE_WIDTHS = [10, 100, 300, 500, 750, 1000, 1500, 2500];
 
 export const ImageRendererComponent: React.FC<ImageRendererComponentProps> = ({
     onClick,
