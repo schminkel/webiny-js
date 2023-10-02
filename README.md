@@ -1,3 +1,12 @@
+# Links
+
+- Admin app: https://d1ou652envons5.cloudfront.net
+- Main GraphQL API: https://d1ddgfi6bmfzq7.cloudfront.net/graphql
+- Website URL: https://d3kc5ugpvj96bo.cloudfront.net
+- Website preview URL: https://d17bnqhrr5bcde.cloudfront.net
+
+---
+
 <p align="center">
   <img src="./docs/static/webiny-logo.svg" width="250">
   <br><br>
@@ -25,20 +34,17 @@
 
 </p>
 
-
 https://user-images.githubusercontent.com/2216344/194592342-2a63da40-136c-4190-9776-680d1ac2382f.mp4
-
 
 Webiny Serverless CMS includes:
 
-1️⃣ **Page Builder** - Drag&drop page editor. Pages are prerendered automatically and cached on CloudFront for lightning-fast delivery. 
+1️⃣ **Page Builder** - Drag&drop page editor. Pages are prerendered automatically and cached on CloudFront for lightning-fast delivery.
 
 2️⃣ **Headless CMS** - Headless CMS with a GraphQL API. Build APIs and content models through a UI. It includes content revisions, localization, and fine-grain permission control.
 
 3️⃣ **File Manager** - Upload files images. Search and organize your assets. It includes a built-in image editor for basic image manipulations.
 
 4️⃣ **Form Builder** - Build forms with a drag&drop editor. Insert forms through Page Builder into your pages. It has webhook support and ReCaptcha integration.
-
 
 All Webiny apps can be customized easily to fully fit an enterprise publishing workflow and integrate with leading identity providers like OKTA and Cognito.
 <br /><br />
@@ -52,7 +58,6 @@ All Webiny apps can be customized easily to fully fit an enterprise publishing w
 2. Deploy to your AWS cloud:
 
 `yarn webiny deploy`
-
 
 **Prerequisites**
 
@@ -97,13 +102,13 @@ Why are those modules paid? It's a way we support the development of the project
 
 ## 👷‍♀️ When to use Webiny?
 
-Webiny has many features, too many to list to make this readme digestible, so instead of talking about features, here are the common use-cases you can satisfy using Webiny: 
+Webiny has many features, too many to list to make this readme digestible, so instead of talking about features, here are the common use-cases you can satisfy using Webiny:
 
 - **Headless CMS** - Programmatically integrate your apps with Webiny's GraphQL Headless CMS.
 
 - **GraphQL API** - You can build a GraphQL API using the [Headless CMS](https://www.webiny.com/serverless-app/headless-cms), but you can [also use the `webiny scaffold` command](https://www.webiny.com/docs/how-to-guides/scaffolding/graphql-api) to create new GraphQL resolvers where you can add your custom business logic.
 
-- **Marketing landing pages and micro-sites** - Using the [Page Builder](https://www.webiny.com/serverless-app/page-builder) marketing teams can quickly build new websites without knowledge of HTML or CSS. 
+- **Marketing landing pages and micro-sites** - Using the [Page Builder](https://www.webiny.com/serverless-app/page-builder) marketing teams can quickly build new websites without knowledge of HTML or CSS.
 
 - **Multi-tenant SaaS applications** - Webiny has a robust multi-tenancy layer with built-in data separation. You can build your own SaaS applications on top and let Webiny handle the API, security, and data storage for you.
 
@@ -125,13 +130,15 @@ We believe serverless is the future of web development. It gives us much more ba
 
 **♦ Why open-source?**
 
-Open-source has two main aspects over SaaS: 
+Open-source has two main aspects over SaaS:
+
 1. It's customizable, unlike being locked in a SaaS solution.
 2. Your data is stored under your rules, in your data center, with your compliance standard inside your security parameter and delivered through your CDN.
 
 **♦ How is this enterprise?**
+
 1. Webiny is built to be integrated inside enterprise environments. Being open-source is one part of that solution; the other is that Webiny integrates with enterprise IdPs such as OKTA and Cognito.
-2. Webiny is architected to sustain heavy usage coming from large volumes of users. 
+2. Webiny is architected to sustain heavy usage coming from large volumes of users.
 3. Webiny is built on top of fault-tolerant serverless services.
 4. Webiny keeps the data encrypted both in transit and at rest.
 5. In the paid edition, enterprises have access to our SLA-based support and consultancy services.
@@ -148,10 +155,10 @@ As part of our performance benchmark, we also benchmarked the cost of the DDB + 
 
 As a rule of thumb, we recommend the DDB option for small and medium-size projects, which should be cheaper when compared to a solution running on VMs or containers.
 
-
 **♦ Why should my enterprise consider using Webiny?**
 
 Top 5 reasons to do so:
+
 1. **Self-hosted**: Webiny runs inside your own AWS cloud; you keep control over your data and security perimeter.
 2. **Open-source**: We released Webiny under the MIT license, so you can customize every aspect of the system to match your needs fully.
 3. **Serverless**: Webiny runs on AWS services such as Lambda, S3, and DynamoDB, to offer a highly scalable and fault-tolerant infrastructure.
